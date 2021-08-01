@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Bauhaus;
+    src: url(Bauhaus.ttf);
+}
+
+@font-face {
+    font-family: bandshr;
+    src: url(band.TTF);
+}
+
+body {
+    background-color: #36393f;
+}
+
+.container_home {
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 60%;
+}
+
+.knowlege_about_site {
+    margin: 100px auto;
+    width: 420px;
+    border: solid #698cc8 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.name_page {
+    margin: 0 auto;
+    font-family: Bauhaus;
+    font-size: 48px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+blue {
+    color: #698cc8;
+}
+
+white {
+    color: white;
+}
+
+.knowlege {
+    width: 400px;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    font-family: bandshr;
+}
+
+.select_window {
+    margin-top: -50px;
+    width: 100%;
+    text-align: center;
+}
+
+.selector {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.selector_work {
+    background-color: #698cc8;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+}
+
+h4 {
+    color: #698cc8;
+}
+
+.Login {
+    border: solid white 5px;
+    color: white;
+    text-align: center;
+    font-family: bandshr;
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    float: right;
+    margin-top: -130px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.golog {
+    border: solid white 3px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    font-family: bandshr;
+    width: 80px;
+    height: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    float: right;
+    margin-right: -14px;
+}
+
+.Login:hover {
+    background-color: #698cc8;
+    color: #36393f;
+    border-color: #698cc8;
+}
+
+.golog:hover {
+    background-color: #698cc8;
+    color: #36393f;
+    border-color: #698cc8;
+}
+
+.log_inp {
+    outline: none;
+    background-color: #36393f;
+    border: none;
+    border: solid white 3px;
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    font-size: 16px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+.registration {
+    margin: 120px auto;
+    width: 420px;
+    color: white;
+    margin-top: -82px;
+    padding-left: 30px;
+    font-family: bandshr;
+    cursor: pointer;
+}
+
+    .registration:hover {
+        text-decoration: underline;
+        color: #698cc8;
+    }
